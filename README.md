@@ -13,6 +13,7 @@ WEATHER ├── config.py ├── requirements.txt ├── weather_fetcher
 -	Handles invalid inputs and API errors gracefully.
 ## Requirements
 Python 3.6+
+
 requests library
 ## Installation
 1.Clone or download the project files
