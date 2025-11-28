@@ -51,6 +51,8 @@ timestamp TEXT  Date and time when data was logged
 -	Database connection problems.
 
 ## Example of Data base
+WEATHER APPLICATION MENU
+
 1️ Get weather for a city
 
 2️ View all weather logs
@@ -78,6 +80,18 @@ Temperature: 25.28°C
  Conditions: Overcast Clouds
  
  Time: 2025-11-28 16:52:51
+
+ 1️ Get weather for a city
+
+2️ View all weather logs
+
+3️ View statistics (visualization)
+
+4️ Clear all logs
+
+5️ Exit
+
+ Enter your choice: 2
  
  ## Final output
  
@@ -111,25 +125,32 @@ Temperature: 25.28°C
 
 
  WEATHER APPLICATION MENU
+ 
 1️  Get weather for a city
-1️  Get weather for a city
+
 2️  View all weather logs
+
 3️  View statistics (visualization)
-2️  View all weather logs
-3️  View statistics (visualization)
+
 4️  Clear all logs
-4️  Clear all logs
+
 5️  Exit
  Enter your choice: 3
 
 
  WEATHER APPLICATION MENU
+ 
 1️  Get weather for a city
+
 2️  View all weather logs
+
 3️  View statistics (visualization)
+
 4️  Clear all logs
-4️  Clear all logs
+
 5️  Exit
+
  Enter your choice: 5
- Exiting... Goodbye!
+ 
+ Exiting... Goodbye.
  
