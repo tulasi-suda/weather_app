@@ -51,6 +51,7 @@ timestamp TEXT  Date and time when data was logged
 -	Database connection problems.
 
 ## Example of Data base
+```
 WEATHER APPLICATION MENU
 
 1️ Get weather for a city
@@ -92,9 +93,10 @@ Temperature: 25.28°C
 5️ Exit
 
  Enter your choice: 2
+```
  
  ## Final output
- 
+ ```
  WEATHER LOGS:
  
 ================================================================================
@@ -153,4 +155,5 @@ Temperature: 25.28°C
  Enter your choice: 5
  
  Exiting... Goodbye.
+```
  
