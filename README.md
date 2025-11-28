@@ -28,7 +28,8 @@ requests library
 ## Database Schema
 The SQLite database weather_logs.db contains one table named weather_data with the following fields:
 
-```Column  	Type	  Description
+```
+Column  	Type	  Description
 
 id INTEGER	   Auto-increment primary key
 
@@ -40,7 +41,7 @@ humidity	INTEGER	Humidity percentage
 
 conditions	TEXT	Weather condition description (e.g., clear sky)
 
-timestamp 	TEXT  	Date and time when data was logged```
+timestamp 	TEXT  	Date and time when data was logged ```
 
 ## Error Handling
 -	If the city name is empty, the program prompts for a valid name.
