@@ -29,19 +29,19 @@ requests library
 The SQLite database weather_logs.db contains one table named weather_data with the following fields:
 
 ```
-Column  	Type	  Description
+Column  Type  Description
 
-id INTEGER	   Auto-increment primary key
+id INTEGER  Auto-increment primary key
 
-city  TEXT	  Name of the city
+city  TEXT  Name of the city
 
-temperature	REAL	Temperature in Celsius
+temperature REAL Temperature in Celsius
 
-humidity	INTEGER	Humidity percentage
+humidity INTEGER Humidity percentage
 
-conditions	TEXT	Weather condition description (e.g., clear sky)
+conditions TEXT	Weather condition description (e.g., clear sky)
 
-timestamp 	TEXT  	Date and time when data was logged
+timestamp TEXT  Date and time when data was logged
 ```
 
 ## Error Handling
@@ -78,4 +78,58 @@ Temperature: 25.28°C
  Conditions: Overcast Clouds
  
  Time: 2025-11-28 16:52:51
+ 
+ ## Final output
+ 
+ WEATHER LOGS:
+ 
+================================================================================
+
+ 2025-11-27 23:08:28 | Guntur |  20.54°C |  79.0% |  Broken Clouds  
+ 
+ 2025-11-27 23:08:35 | Ponnur |  22.2°C |  78.0% |  Overcast Clouds 
+ 
+ 2025-11-27 23:08:47 | Chīrāla |  23.06°C |  74.0% |  Overcast Clouds
+ 
+ 2025-11-27 23:08:54 | Bāpatla |  22.78°C |  73.0% |  Overcast Clouds
+ 
+ 2025-11-27 23:09:03 | Tirumala - Tirupati |  18.19°C |  85.0% |  Overcast Clouds
+ 
+ 2025-11-27 23:09:09 | Tirumala |  16.17°C |  87.0% |  Overcast Clouds
+ 
+ 2025-11-27 23:09:14 | Gao |  29.34°C |  12.0% |  Overcast Clouds 
+ 
+ 2025-11-27 23:09:21 | Vijayawada |  20.78°C |  75.0% |  Broken Clouds
+ 
+ 2025-11-27 23:25:35 | Ongole |  23.32°C |  73.0% |  Overcast Clouds
+ 
+ 2025-11-27 23:25:45 | Nellore |  23.09°C |  75.0% |  Overcast Clouds
+ 
+ 2025-11-28 16:52:51 | Kāvali |  25.28°C |  66.0% |  Overcast Clouds
+ 
+ 2025-11-28 16:53:13 | Nandigāma |  26.78°C |  54.0% |  Broken Clouds
+
+
+ WEATHER APPLICATION MENU
+1️  Get weather for a city
+1️  Get weather for a city
+2️  View all weather logs
+3️  View statistics (visualization)
+2️  View all weather logs
+3️  View statistics (visualization)
+4️  Clear all logs
+4️  Clear all logs
+5️  Exit
+ Enter your choice: 3
+
+
+ WEATHER APPLICATION MENU
+1️  Get weather for a city
+2️  View all weather logs
+3️  View statistics (visualization)
+4️  Clear all logs
+4️  Clear all logs
+5️  Exit
+ Enter your choice: 5
+ Exiting... Goodbye!
  
