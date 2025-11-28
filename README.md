@@ -19,6 +19,7 @@ requests library
 1.Clone or download the project files
 
 2.Install required dependencies:
+
         pip install requests
         
 3.Get an API key from OpenWeatherMap
