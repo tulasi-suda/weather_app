@@ -1,34 +1,53 @@
 # weather_app
-##  Real-Time Weather Info & Logger
-## Overview
-This Python application fetches real-time weather data from OpenWeatherMap API for user-specified cities and logs all responses with timestamps to both SQLite database and text files .Designed with Object-Oriented Programming (OOP) principles to keep code organized and maintainable. Proper error handling ensures robustness against invalid city names or API issues.
-## Project Structure
-WEATHER ├── config.py ├── requirements.txt ├── weather_fetcher.py └──data_logger.py  |---main.py
-## Features
-- Input city names interactively or type exit to quit.
-- Fetches live temperature (in °C), humidity (%), and weather conditions.
--	Displays simple meaningful explanations about temperature and humidity values.
--	Logs each lookup response into a SQLite database with a timestamp.
--	Uses OOP with clear separation of concerns: fetching data, displaying info, and logging.
--	Handles invalid inputs and API errors gracefully.
-## Requirements
-Python 3.6+
 
-requests library
+##  Real-Time Weather Info & Logger
+
+## Overview
+
+This Python application fetches real-time weather data from OpenWeatherMap API for user-specified cities and logs all responses with timestamps to both SQLite database and text files .Designed with Object-Oriented Programming (OOP) principles to keep code organized and maintainable. Proper error handling ensures robustness against invalid city names or API issues.
+
+
+## Project Structure
+
+WEATHER ├── config.py ├── requirements.txt ├── weather_fetcher.py └──data_logger.py  |---main.py
+
+## Features
+
+- Input city names interactively or type exit to quit.
+
+- Fetches live temperature (in °C), humidity (%), and weather conditions.
+
+-	Displays simple meaningful explanations about temperature and humidity values.
+
+-	Logs each lookup response into a SQLite database with a timestamp.
+
+-	Uses OOP with clear separation of concerns: fetching data, displaying info, and logging.
+
+-	Handles invalid inputs and API errors gracefully.
+
+## Requirements
+
+- Python 3.6+
+- requests library
+
 ## Installation
+
 1.Clone or download the project files
 
 2.Install required dependencies:
+```sql
+pip install requests
+```
 
-        pip install requests
-        
 3.Get an API key from OpenWeatherMap
      Sign up for a free account
      Generate an API key in your dashboard
+     
 ## Database Schema
+
 The SQLite database weather_logs.db contains one table named weather_data with the following fields:
 
-```
+```sql
 Column  Type  Description
 
 id INTEGER  Auto-increment primary key
@@ -46,12 +65,30 @@ timestamp TEXT  Date and time when data was logged
 
 ## Error Handling
 -	If the city name is empty, the program prompts for a valid name.
+
 -	If the API request fails (network issues or invalid city), an error message is displayed.
+
 -	Unexpected API response formats are caught and notified to the user.
+
 -	Database connection problems.
 
+
+## Data Storage & Logging
+
+- SQLite Database: All API responses are automatically logged with timestamps
+
+- Persistent Storage: Data remains available between sessions
+
+- Structured Logging: Each entry includes:
+
+- Timestamp of request
+
+- City name searched 
+
+
 ## Example of Data base
-```
+
+```sql
 WEATHER APPLICATION MENU
 
 1️ Get weather for a city
@@ -96,7 +133,8 @@ Temperature: 25.28°C
 ```
  
  ## Final output
- ```
+ 
+ ```sql
  WEATHER LOGS:
  
 ================================================================================
