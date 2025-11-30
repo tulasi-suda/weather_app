@@ -42,6 +42,18 @@ pip install requests
 3.Get an API key from OpenWeatherMap
      Sign up for a free account
      Generate an API key in your dashboard
+
+## Data Storage & Logging
+
+- SQLite Database: All API responses are automatically logged with timestamps
+
+- Persistent Storage: Data remains available between sessions
+
+- Structured Logging: Each entry includes:
+
+- Timestamp of request
+
+- City name searched 
      
 ## Database Schema
 
@@ -64,6 +76,7 @@ timestamp TEXT  Date and time when data was logged
 ```
 
 ## Error Handling
+
 -	If the city name is empty, the program prompts for a valid name.
 
 -	If the API request fails (network issues or invalid city), an error message is displayed.
@@ -72,18 +85,6 @@ timestamp TEXT  Date and time when data was logged
 
 -	Database connection problems.
 
-
-## Data Storage & Logging
-
-- SQLite Database: All API responses are automatically logged with timestamps
-
-- Persistent Storage: Data remains available between sessions
-
-- Structured Logging: Each entry includes:
-
-- Timestamp of request
-
-- City name searched 
 
 
 ## Example of Data base
@@ -141,7 +142,7 @@ Temperature: 25.28°C
 
  2025-11-27 23:08:28 | Guntur |  20.54°C |  79.0% |  Broken Clouds  
  
- 2025-11-27 23:08:35 | Ponnur |  22.2°C |  78.0% |  Overcast Clouds 
+ 20227 23:08:35 | Ponnur |  22.2°C |  78.0% |  Overcast Clouds 
  
  2025-11-27 23:08:47 | Chīrāla |  23.06°C |  74.0% |  Overcast Clouds
  
